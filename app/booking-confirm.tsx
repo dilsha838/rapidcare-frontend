@@ -18,8 +18,7 @@ import { LinearGradient } from "expo-linear-gradient";
 import AsyncStorage from "@react-native-async-storage/async-storage";
 
 const { width } = Dimensions.get("window");
-const API_BASE =
-  "http://https://rapidcare-backend-production.up.railway.app:5000";
+const API_BASE = "https://rapidcare-backend-production.up.railway.app";
 const MAX_PER_SLOT = 5;
 
 interface CartItem {

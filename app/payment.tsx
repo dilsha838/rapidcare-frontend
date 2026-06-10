@@ -17,8 +17,7 @@ import { useRef, useEffect, useState } from "react";
 import { LinearGradient } from "expo-linear-gradient";
 import AsyncStorage from "@react-native-async-storage/async-storage";
 
-const API_BASE =
-  "http://https://rapidcare-backend-production.up.railway.app:5000";
+const API_BASE = "https://rapidcare-backend-production.up.railway.app";
 
 interface CartItem {
   id: number;

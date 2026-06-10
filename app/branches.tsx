@@ -19,8 +19,7 @@ import { useRef, useEffect, useState, useCallback } from "react";
 import { LinearGradient } from "expo-linear-gradient";
 
 const { width } = Dimensions.get("window");
-const API_BASE =
-  "http://https://rapidcare-backend-production.up.railway.app:5000";
+const API_BASE = "https://rapidcare-backend-production.up.railway.app";
 
 // ─── TYPES ───────────────────────────────────────────────────────────────────
 interface Branch {

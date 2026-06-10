@@ -45,7 +45,7 @@ export default function Signup() {
 
     try {
       const res = await fetch(
-        "http://https://rapidcare-backend-production.up.railway.app:5000/signup",
+        "https://rapidcare-backend-production.up.railway.app/signup",
         {
           method: "POST",
 
